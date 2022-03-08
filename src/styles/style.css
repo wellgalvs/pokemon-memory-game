@@ -17,6 +17,19 @@ body {
   justify-content: space-around;
 }
 
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  #contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template: center;
+    gap: 0.5rem;
+  }
+}
+
 #message {
   text-align: center;
 }
