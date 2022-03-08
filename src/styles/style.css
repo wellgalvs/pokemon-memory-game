@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px Arial, sans-serif;
+  color: #121214;
+}
+
+.buttons {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#message {
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+  transition: filter 0.4s;
+
+  filter: brightness(0.95);
+}
